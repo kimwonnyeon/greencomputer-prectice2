@@ -11,18 +11,18 @@ a{
     color: #333;
 }
 body{
-    background-color: #F5F7FA;
+    background-color: #fff8ee;
 }
 /* 헤더 */
 header{
     text-align: center;
-    background-color: #1e88e5;
+    background-color: #7b2d26;
     color: #FFF;
     padding: 20px;
 }
 /* 로고 */
 #logo{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 /* 네비게이션(메뉴)*/
@@ -39,7 +39,7 @@ nav a{
 /* 메인 베너 */
 .home{
     text-align: center;
-    background-color: #e3f2fd;
+    background-color: #555;
     padding: 60px;
 }
 .home h1{
@@ -51,7 +51,7 @@ nav a{
     margin-bottom: 30px;
 }
 .button{
-    background-color: #1e88e5;
+    background-color: #9e3d32;
     padding: 12px 24px;
     color: #fff;
     border-radius: 8px;
@@ -69,7 +69,7 @@ section h2{
 }
 hr{
     border: 0;
-    border-top: 3px solid #1e88e5;
+    border-top: 3px solid #e8ded2;
 }
 /* 음식 추천 */
 .food{
@@ -116,7 +116,7 @@ footer{
 footer p{
     margin: 10px 0;
 }
-/* 한식 상세보기 */
+/* 음식 상세보기 */
 .intro{
     padding: 30px;
     border-radius: 15px;
@@ -139,7 +139,7 @@ footer p{
     margin-left: 14px;
 }
 /* 음식점 정보 */
-.info{
+.store{
     background-color:#e3f2fb;
     padding: 20px;
     border-radius: 10px;
