@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    background-color: #F5F7FA;
+}
+/* 헤더 */
+header{
+    text-align: center;
+    background-color: #1e88e5;
+    color: #FFF;
+    padding: 20px;
+}
+/* 로고 */
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* 네비게이션(메뉴)*/
+nav{
+    text-align: center;
+    background-color: #FFF;
+    padding: 15px;
+}
+/* 메뉴 */
+nav a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* 메인 베너 */
+.home{
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 60px;
+}
+.home h1{
+    font-size: 36px;
+}
+.home p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    background-color: #1e88e5;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+}
+/* 공통영역 */
+section{
+    width: 50%;
+    margin: 40px auto;
+    /* background-color: red; */
+}
+section h2{
+    color: #222;
+    margin:20px 0;
+}
+hr{
+    border: 0;
+    border-top: 3px solid #1e88e5;
+}
+/* 음식 추천 */
+.food{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.food img{
+    width: 100%;
+}
+.food ul{
+    margin-left: 24px;
+    margin-bottom: 15px;
+}
+.food h3{
+    color: #1e88e5;
+    margin-top:15px;
+}
+.food p{
+    padding: 15px 0;
+}
+/* 추천음식점 */
+.store_line{
+    border: 0;
+    border-top: 3px solid #ff9800;
+}
+/* 추천음식점 */
+.store{
+    background-color: #fff;
+    padding: 20px;
+}
+.store li{
+    margin: 10px;
+}
+
+/* 풋터 */
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    margin: 10px 0;
+}
+/* 한식 상세보기 */
+.intro{
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.intro img{
+    width: 100%;
+}
+.intro h2{
+    margin: 24px 0;
+    color: #1e88e5;
+}
+.intro p{
+    margin: 14px 0;
+}
+.intro hr{
+    border-top: 1px solid #555;
+}
+.intro li{
+    margin-left: 14px;
+}
+/* 음식점 정보 */
+.info{
+    background-color:#e3f2fb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
